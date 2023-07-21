@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=BhuTuka+Expanded+One&family=Fredoka:wght@300;500;600;700&family=Fuzzy+Bubbles:wght@400;700&family=Lobster&family=Moo+Lah+Lah&family=Ole&family=Orbitron:wght@400;500;600&family=Oswald:wght@200;300;400;500;700&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,200;1,400;1,500&family=Rampart+One&family=Road+Rage&family=Roboto+Slab:wght@100;200;300;400;700&family=Syne+Mono&family=Tourney:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Zen+Tokyo+Zoo&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    /*new property */
+}
+
+table{
+    border: 1px solid white(0, 0, 0);  
+    background-color:whitesmoke; 
+    padding:5px 5px; 
+}
+
+
+table td {
+    text-align: center;
+    padding: 8px 20px;
+    border: 1.5px solid rgb(0, 0, 0);
+    margin:0px 0px;
+}
+
+table td .indicator {
+    background-color: red;
+    width: 50%;
+}
+
+table .indicator-box {
+    width: 220px;
+}
+
+#section1 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height:80vh;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:60px;
+}
+.buttons button{
+    padding:10px 10px;
+    margin:5px 10px;
+    font-weight:500;
+    background-color:#0074ccab;
+    border:0.5px solid white;
+    border-radius:8px;
+    color:white;
+}
+
+.buttons button:hover{
+    cursor:pointer;
+}
+
+table .indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border-radius:5px;
+}
+
+table .indicator p {
+    font-size: 10px;
+    font-weight: bold;
+    color:black;
+    height:2px;
+}
+
+table .percent
+{
+    outline:none;
+    border:none;
+    width:80px;
+    text-align:center;
+}
+
+.heading{
+    font-weight:bold;
+}
+/* pop up */
+
+body{
+    position:relative;
+}
+
+#add-popup
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.668);
+    position:absolute;
+    top:0px;
+    display:none;
+}
+
+#add-popup .box
+{
+    border:1px solid black;
+    display:inline-block;
+    padding:30px 45px;
+    width:18rem;
+    background-color:whitesmoke;
+    border-radius:12px;
+    /* box-shadow:1px 4px 4px 6px rgba(245, 245, 245, 0.623); */
+    display:none;
+}
+
+#add-popup .box input
+{
+    margin:0px 0px;
+    height:30px;
+    width:12rem;
+    padding:5px 5px;
+}
+
+#add-popup .box button
+{
+    padding:5px 30px;
+    margin-left:50px;
+    font-weight:bold;
+    background-color:#0074ccab;
+    border:none;
+    border-radius:8px;
+    border:0.5px solid black;
+}
+
+#add-popup .box button:hover
+{
+    cursor:pointer;
+}
+
+#add-popup label{
+    display:block;
+    width:120px;
+    font-size: 12px;
+    font-weight:bold;
+}
+
+/* delete-popup */
+
+#delete-popup
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.668);
+    position:absolute;
+    top:0px;
+    display:none;
+}
+
+#delete-popup .box
+{
+    border:1px solid black;
+    display:inline-block;
+    padding:30px 45px;
+    width:18rem;
+    background-color:whitesmoke;
+    border-radius:12px;
+    /* box-shadow:1px 4px 4px 6px rgba(245, 245, 245, 0.623); */
+    
+}
+
+#delete-popup .box input
+{
+    margin:0px 0px;
+    height:30px;
+    width:12rem;
+    padding:5px 5px;
+}
+
+#delete-popup .box button
+{
+    padding:5px 30px;
+    margin-left:50px;
+    font-weight:bold;
+    background-color:#0074ccab;
+    border:none;
+    border-radius:8px;
+    border:0.5px solid black;
+}
+
+#delete-popup .box button:hover
+{
+    cursor:pointer;
+}
+
+#delete-popup label{
+    display:block;
+    width:120px;
+    font-size: 12px;
+    font-weight:bold;
+}
+
+#myTable{
+    transition:1s;
+}
+
+body{
+    background-image:url(https://img.freepik.com/free-photo/superfoods-seeds-grains-vegan-vegetarian-eating-clean-eating_114579-3939.jpg?w=1060&t=st=1671384013~exp=1671384613~hmac=9dc7982a240bdba4bcf5e2d07265324fd6204472116ef475067bd21fd7b4f4fb);
+
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+body .body-overlay 
+{
+    height:100%;
+    background-color:rgba(0, 0, 0, 0.775);
+}

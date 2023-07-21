@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard.css">
+    <script src="dashboard.js"></script>
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="body-overlay">
+        <h1 style="border:2px solid whitesmoke; text-align:center;color:white;">USER DASHBOARD</h1>
+
+    <div class="buttons">
+        <button id="btn1" >Add Item</button>
+        <button id="btn2" >Delete Item</button>
+    </div>
+
+    <div id="section1">
+        <table cellspacing="0" id="myTable" >
+            <tr class="heading-row" style="border:1px solid black;">
+                <td class="heading">ITEM</td>
+                <TD class="heading">MAX WEIGHT(g)</TD>
+                <TD class="heading">WEIGHT(g)</TD>
+                <TD class="heading">STATUS(in %)</TD>
+                <TD class="heading">DATE</TD>
+                <TD class="heading indicator-box">INDICATION</TD>
+            </tr>
+
+            <!-- <tbody id="myTable">
+
+            </tbody> -->
+
+            <!-- 1 -->
+            <tr>
+                <td>Mustard Seeds</td>
+                <td>400</td>
+                <td>400</td>
+                <td class="status">100</td>
+                <td>2-12-2022</td>
+                <td class="indicator-box"><div style="background-color:rgb(85, 255, 47); width:100%;" class="indicator">
+                    <p class="display">100%</p>
+                </div></td>
+            </tr>
+            <!-- 2 -->
+            <tr>
+                <td>Red Chilli</td>
+                <td>560</td>
+                <td>112</td>
+                <td class="status">20</td>
+                <td>2-12-2022</td>
+                <td class="indicator-box"><div style="background-color:red; width:20%;" class="indicator">
+                    <p class="display">20%</p>
+                </div></td>
+            </tr>
+
+            <!-- 3 -->
+            <tr>
+                <td>Corriander</td>
+                <td>235</td>
+                <td>235</td>
+                <td class="status">100</td> 
+                <td>2-12-2022</td>
+                <td class="indicator-box"><div style="background-color:rgb(85, 255, 47); width:100%;" class="indicator">
+                    <p class="display">100%</p>
+                </div></td>
+            </tr>
+
+            <!-- 4 -->
+            <tr>
+                <td>Cumin Seeds</td>
+                <td>800</td>
+                <td>480</td>
+                <td class="status">60</td> 
+                <td>2-12-2022</td>
+                <td class="indicator-box" ><div style="background-color:yellow; width:60%;" class="indicator">
+                    <p class="display">60%</p>
+                </div></td>
+            </tr>
+
+            <!-- 5 -->
+            <tr>
+                <td>Cereals</td>
+                <td>346</td>
+                <td>117.64</td>
+                <td class="status">34</td> 
+                <td>2-12-2022</td>
+                <td class="indicator-box"><div style="background-color:red; width:34%;" class="indicator">
+                    <p class="display">34%</p>
+                </div></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="add-popup">
+        <div class="box">
+            <form class="form1" action="/">
+                <label for="">Item Name</label><input type="text"> <br> <br>
+                <label for="">Max Quant</label><input type="text"> <br> <br>
+                <label for="">Weight</label><input type="text"> <br> <br>
+                <label for="">Item Name</label><input type="text">  <br><br>
+                <button type="submit">Add</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="delete-popup">
+        <div class="box">
+            <form class="form2" action="/">
+                <label for="">Item Name</label><input type="text"> <br> <br>
+                <button type="submit">Delete</button>
+            </form>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
