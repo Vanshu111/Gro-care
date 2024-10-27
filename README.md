@@ -45,6 +45,16 @@ Grocery Care utilizes the following technologies:
 3. Deploy the web-based interface on your preferred cloud service (AWS, for example).
 4. Configure the hardware prototype to communicate with the web service for real-time data exchange.
 
+ ## Demo
+ **Hardware Setup**
+ https://drive.google.com/file/d/1jKWI9Om9-9c_GGB1DTlOggOvE5gwWSf9
+
+ **Platform**
+ ![IMG_0065](https://github.com/user-attachments/assets/43634286-25df-4339-bb9a-5ba82cb21e83)
+![IMG_0066](https://github.com/user-attachments/assets/b00cbcbb-b1dc-48ad-bc3e-ea2925be1f64)
+![IMG_0067](https://github.com/user-attachments/assets/2855b1ab-2129-43c9-aa11-763c23ea573a)
+
+
 
 ## Usage
 
